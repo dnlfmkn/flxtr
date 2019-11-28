@@ -1,0 +1,6 @@
+framework module Pods_flxtrTests {
+  umbrella header "Pods-flxtrTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
