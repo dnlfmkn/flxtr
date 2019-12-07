@@ -16,5 +16,17 @@ flxtr is an app that allows users to browse movies from the [The Movie Database 
 ### App Walkthough GIF
 <img src="http://recordit.co/jvjWRvuKMZ.gif" width=250><br>
 
+## Flix Part 2
+
+### User Stories
+
+#### REQUIRED (10pts)
+- [X] (5pts) User can tap a cell to see more details about a particular movie.
+- [X] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+
+### App Walkthough GIF
+
+<img src="http://g.recordit.co/LwEB25sL8g.gif" width=250><br>
+
 ### Notes
-No challenges were encountered while building this app.
+Getting the images in the collection view to resize was a bit of an issue.
