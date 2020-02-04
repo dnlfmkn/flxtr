@@ -138,11 +138,41 @@
                         <outlet property="posterView" destination="lNp-v9-9Wm" id="BXc-n3-Vwm"/>
                         <outlet property="synopsisLabel" destination="eir-Dw-c89" id="0bZ-zt-PPP"/>
                         <outlet property="titleLabel" destination="H4h-d6-M4b" id="bng-gw-NRR"/>
+                        <segue destination="Qss-UN-LcF" kind="presentation" identifier="trailerSegue" id="DEl-ck-YzR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pyc-FU-Nh7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1186.4000000000001" y="1618.7406296851575"/>
+        </scene>
+        <!--Trailer View Controller-->
+        <scene sceneID="WJg-eA-AT1">
+            <objects>
+                <viewController id="Qss-UN-LcF" customClass="TrailerViewController" customModule="flxtr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E3o-Uz-VeN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wW1-iS-PN3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="V3P-bU-tJj"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="wW1-iS-PN3" id="4bq-Jm-kda"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WS7-wR-CZr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1204" y="2355.472263868066"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yFt-1m-kY7">
