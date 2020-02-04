@@ -26,7 +26,7 @@ flxtr is an app that allows users to browse movies from the [The Movie Database 
 
 ### App Walkthough GIF
 
-<img src="http://g.recordit.co/LwEB25sL8g.gif" width=250><br>
+<img src="http://g.recordit.co/2GK9HG8Ihj.gif" width=250><br>
 
 ### Notes
 Getting the images in the collection view to resize was a bit of an issue.

@@ -105,7 +105,7 @@
                                 <rect key="frame" x="16" y="111" width="125" height="222.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4h-d6-M4b">
-                                <rect key="frame" x="140" y="247" width="219" height="31"/>
+                                <rect key="frame" x="149" y="247" width="210" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -142,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pyc-FU-Nh7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1186" y="1619"/>
+            <point key="canvasLocation" x="-1186.4000000000001" y="1618.7406296851575"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yFt-1m-kY7">
